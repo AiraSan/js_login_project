@@ -11,7 +11,7 @@ function login(e) {
 
     if(email && pass){
         if(email === defaultEmail && pass === defaultPass) {
-            document.querySelector('#success').innerHTML = "Login Successfully!"
+            document.querySelector('#success').innerHTML = `<img src="mayloe.jpeg" alt="" width=100%>`// "Login Successfully!"
             document.querySelector('.container').style.display = 'none';
         } 
         else if (email === defaultEmail && pass !== defaultPass) {
