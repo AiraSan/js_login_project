@@ -1,5 +1,5 @@
-const defaultEmail = "zarmani@gmail.com";
-const defaultPass = "zarmani123";
+const defaultEmail = "shinthantismygurl@gmail.com";
+const defaultPass = "luvforever";
 
 
 function login(e) {
@@ -11,7 +11,11 @@ function login(e) {
 
     if(email && pass){
         if(email === defaultEmail && pass === defaultPass) {
-            document.querySelector('#success').innerHTML = `<img src="mayloe.jpeg" alt="" width=100%>`// "Login Successfully!"
+            document.querySelector('#success').innerHTML = `<video width="320" height="240" autoplay>
+            <source src="shinthant.mp4" type="video/mp4">
+            <source src="shinthant.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>`// "Login Successfully!"
             document.querySelector('.container').style.display = 'none';
         } 
         else if (email === defaultEmail && pass !== defaultPass) {
